@@ -1,7 +1,7 @@
 # VivaRename
 
 What does this project do?
-This project will changes the name of the multiple files. We will start customizing the admin templates.
+This project will changes the name of the multiple files. It starts with GUI dialog.
 
 Why is this project useful?
 This will make easy to chang the name of the multiple files.
