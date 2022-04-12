@@ -814,23 +814,10 @@ int MeasureNetworkTrafficLevel(int timeDelaySec);
 BOOL GetKnownFolderPath(REFKNOWNFOLDERID refid, LPTSTR* pPath);
 
 /**
-* @brief 시스템 NIC의 유효 Mac Address를 리턴한다.
-*/
-BOOL GetSystemMacAddress(LPTSTR address, int length);
-
-/**
-* @brief 시스템의 Mac Address가 일치하는지 확인한다.
-*/
-BOOL IsMatchSystemMacAddress(LPCTSTR pMacAddress);
-
-/**
 * @brief 시스템의 인터넷 연결 상태를 확인한다.
 */
 BOOL IsInternetConnected();
 
-BOOL GetFileVersionInfoString(LPCTSTR moduleName, LPTSTR pBuff, int length);
-
-BOOL GetFileVersionInfoString(LPCTSTR moduleName, LPSTR pBuff, int length);
 
 #endif
 
